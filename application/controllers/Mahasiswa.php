@@ -6,9 +6,9 @@ class Mahasiswa extends CI_Controller {
 	public function index()
 	{
 		
-
+		//load adri folder view
 		$this->load->view("mahasiswa_index");
-		
+
 
 	}
 	
